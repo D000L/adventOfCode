@@ -12,7 +12,7 @@ fun main() {
 
                 do {
                     currentX += dx
-                    curre   ntY += dy
+                    currentY += dy
                     val targetTreeHeight = map.getOrNull(currentY)?.getOrNull(currentX) ?: return true
                 } while (treeHeight > targetTreeHeight)
             }
